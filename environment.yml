@@ -1,0 +1,11 @@
+name: gru_rnn_project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - fastapi
+  - uvicorn
+  - sentencepiece
+  - wandb
